@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- api by https://api.qrserver.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Quick QR Code Generator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./image/qr-code.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Quick QR Code Generator</h1>
+        <p>Paste a url or enter text to create quick QR code</p>
+      </header>
+      <div class="form">
+        <input type="text" spellcheck="false" placeholder="Enter text or url">
+        <button>Generate QR Code</button>
+        <button disabled class="download">Download QR Code</button>
+         <div class="qr-code">
+          <br>
+          <img src="" alt="qr-code">
+        </div>
+      </div>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
